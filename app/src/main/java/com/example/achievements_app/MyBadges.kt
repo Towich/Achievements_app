@@ -9,6 +9,7 @@ object MyBadges {
         badges.add(ItemData(id++, R.drawable.uni_2, "Completed subject!"))
         badges.add(ItemData(id++, R.drawable.hundred_hours, "100 hours\nin Android Dev!"))
         badges.add(ItemData(id++, R.drawable.yandex_logo, "Completed Yandex Lecturerium!"))
+        badges.add(ItemData(id++, R.drawable.todo_app_logo, "Released ToDoApp!"))
     }
 
     fun getAllBadges(): List<ItemData> = badges

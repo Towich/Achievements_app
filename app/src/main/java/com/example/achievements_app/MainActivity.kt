@@ -106,6 +106,7 @@ private fun ItemView(itemData: ItemData) {
                 textAlign = TextAlign.Center,
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.padding(bottom = 10.dp)
             )
         }
     }
